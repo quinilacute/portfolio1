@@ -1,0 +1,482 @@
+/* Global Styles */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #333; 
+    width: auto;
+    color: #ffffff;
+    border: #9c27b0 12px solid;
+}
+
+a {
+    color: #eca2f9; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #ab47bc; 
+}
+
+/* hr Styles */
+hr {
+    border: none; 
+    border-top: 2px solid #9c27b0; 
+    margin: 20px 0; 
+}
+.test img{
+    height: 150px;
+    width: 100%;
+}
+
+.projects img {
+    height: 330px;
+    width: 60%;
+    border-radius: 10px;
+}
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 94.5%;
+    height: 40px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 1rem 2rem;
+}
+
+.logo img{
+    margin-left: 29%;
+    margin-top: -23%;
+    width: 100%;
+    height: 120px;
+}
+
+.logo img {
+    transition: transform 0.3s ease; 
+}
+
+.logo img:hover {
+    transform: scale(1.1); 
+}
+
+p, .did, .bout {
+    transition: color 0.3s ease; 
+    
+    color: #dd8be8;
+}
+.did h2, .bout h2{
+    transition: color 0.3s ease; 
+    color: #e3adeb;
+}
+
+p:hover {
+    color: #ab47bc;
+}
+
+
+/* Navigation Styles */
+.one, .two {
+    padding-left: 0%;
+   
+}
+
+.two {
+    padding-right: 14%;
+    margin-top: -0.51%;
+}
+
+.one ul, .two ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.two img, .down img{
+    height: 26px;
+}
+
+.one .con {
+    margin-top: -6%;
+    margin-left: 89%;
+}
+
+.con, .sub {
+    background-color: #9c27b0; 
+    transition: background-color 0.3s ease;
+}
+
+.con:hover, .sub:hover {
+    background-color: #ab47bc; 
+}
+
+.res, .con, .projects a {
+    border: solid 2px #ab47bc; 
+    transition: box-shadow 0.3s ease; 
+}
+
+.res:hover, .con:hover, .projects a:hover {
+    box-shadow: 0 4px 8px rgba(171, 71, 188, 0.5); 
+}
+.pg1 {
+    height: 360px;
+}
+
+/* Main Section Styles */
+.pg2, .pg4 {
+    background-color: #555; 
+    height: 300px;
+}
+
+.pg2 {
+    height: 150px;
+}
+
+
+.land {
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+.land h1 {
+    font-size: 43px;
+    transition: color 0.3s ease;  
+}
+
+.land p {
+    font-size: 15px;
+    font-weight: 400;
+    transition: color 0.3s ease; 
+}
+
+.hire {
+    display: flex;
+}
+
+.hire a {
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease, color 0.3s ease;  
+}
+
+.res, .con {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 18%;
+    margin-top: 3%;
+    height: 14px;
+    border-radius: 10px;
+    padding: 10px 12px 10px 12px;
+    transition: box-shadow 0.3s ease;  
+}
+.res{
+    margin-left: 4%;
+}
+
+.res:hover, .con:hover {
+    box-shadow: 0 4px 8px rgba(171, 71, 188, 0.5);  
+}
+
+.res a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.img img {
+    width: 50%;
+    margin-left: 53%;
+    margin-top: -41%;
+    transition: transform 0.3s ease;  
+}
+
+
+.img img:hover {
+    transform: scale(1.05);  
+}
+
+.pg2 h2, .pg3 h2, .pg4 h2 {
+    font-size: 27px;
+    margin-left: 45%;
+    margin-top: 4%;
+}
+
+.host {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.host ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 22px;
+    color: #ab47bc;
+    transition: all 0.3s ease;
+   
+}
+.host ul ol:hover {
+    border: rgb(237, 187, 240) solid 2px;
+    margin-left: 3px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 8px rgba(126, 123, 126, 0.2);
+}
+.about p {
+    font-size: 12px;
+    margin-top: 2%;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+.pg4 {
+    height: fit-content;
+}
+
+/* Project Section Styles */
+ .pro2, .pro4 {
+    height: 400px;
+}
+
+
+
+.pro2, .pro4 {
+    background-color: #333;  
+}
+
+#pro1, #pro3, #pro2, #pro4 {
+    position: absolute;
+    width: 40%;
+    transition: transform 0.3s ease;  
+}
+
+#pro1:hover, #pro3:hover, #pro2:hover, #pro4:hover {
+    transform: scale(1.05);  
+}
+
+#pro1, #pro3 {
+    height: 300px;
+    margin-top: -6%;
+    margin-left: 7%;
+}
+
+#pro2, #pro4 {
+    height: 380px;
+    margin-top: -26%;
+    margin-left: 55%;
+}
+
+.des1, .des3, .des2, .des4 {
+    margin-top: 9%;
+    text-align: left;
+    transition: color 0.3s ease; 
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 15px;
+    }
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        padding: 10px 10px;
+        border-radius: 15px;
+        transition: background-color 0.3s ease, color 0.3s ease;  
+    }
+}
+
+.des1 a:hover, .des3 a:hover, .des2 a:hover, .des4 a:hover {
+    background-color: #9c27b0;  
+    color: #ffffff;  
+}
+
+.des1, .des3 {
+    margin-left: 30%;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.des1 p, .des3 p {
+    margin-top: -15px;
+    padding-left: 44%;
+}
+
+.des1 a, .des3 a {
+    margin-left: 45%;
+}
+
+.des2, .des4 {
+    width: 46%;
+    height: 380px;
+   
+}
+
+.des2 p, .des4 p {
+    position: relative;
+    margin-top: -3%;
+    padding-left: 45%;
+}
+
+.des2 a, .des4 a {
+    margin-left: 45%;
+}
+
+.des2 h2,.des4 h2{
+    
+    padding-top: 20%;
+}
+
+/* Testimonials Section Styles */
+.man, .woman {
+    width: 40%;
+    height: 70vh;
+    margin-left: 10%;
+}
+
+.man{
+    margin-top: 10%;
+}
+
+#man, #woman {
+    width: 40%;
+    height: 120px;
+    margin-left: 30%;
+    transition: transform 0.3s ease;  
+}
+.text {
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 30px;
+        color: rgb(30, 3, 40);
+    }
+    
+}
+#man:hover, #woman:hover {
+    transform: scale(1.05);  
+}
+
+.man p, .woman p {
+    height: 120px;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 15px;
+    margin-top: 10%;
+    transition: color 0.3s ease;  
+}
+
+.man h2, .woman h2 {
+    margin-left: 28%;
+    margin-top: 8%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.man h3, .woman h3 {
+    margin-left: 37%;
+    margin-top: 4%;
+    letter-spacing: 3px;
+}
+
+.woman {
+    position: relative;
+    margin-left: 54%;
+    margin-top: -38%;
+}
+
+/* Footer Section Styles */
+.did, .bout, .lets {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.did ul, .bout ul {
+    margin-left: -15.5%;
+    list-style: none;
+    text-decoration: none;
+    margin-top: -1%;
+}
+
+.lets p {
+    margin-left: -1%;
+    margin-top: -1%;
+}
+
+.did {
+    width: 20%;
+    height: 100px;
+    margin-left: 6%;
+
+}
+
+.bout {
+    position: relative;
+    width: 20%;
+    height: 100px;
+    margin-left: 34%;
+    margin-top: -8%;
+}
+
+.lets {
+    position: relative;
+    width: 30%;
+    height: 130px;
+    margin-left: 72%;
+    margin-top: -8%;
+}
+
+.put {
+    border: 2px solid #ab47bc; 
+    padding: 5px 15px;
+    background-color: transparent;
+    transition: background-color 0.3s ease; 
+}
+
+.put:hover {
+    background-color: #9c27b0;  
+    color: #ffffff;  
+}
+
+.sub {
+    border: none;
+    padding: 5px 29px;
+}
+
+.put, .sub {
+    border-radius: 3px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    top: 10;
+    left: 4;
+    width: 98.3%;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+
+.down {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 68.4%;
+    margin-top: -1.5%;
+}
+
+.all {
+    position: absolute;
+    font-size: 15px;
+    margin-top: -1%;
+    margin-left: 6%;
+}
